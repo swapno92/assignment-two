@@ -1,20 +1,31 @@
 * {
     margin: 0;
-
     font-family: 'Work Sans', sans-serif;
 }
 
 body {
     max-width: 1400px;
     margin: 0 auto;
+    margin-bottom: 5000px;
 }
 
 /* comon style */
 
 .description {
-    color: #3C354F;
     font-size: 13px;
+    color: #534C64;
     font-weight: 500;
+}
+
+.comon-text-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectioin-heading{
+    font-size: 35px;
 }
 
 /* header section style */
@@ -57,7 +68,12 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 32px;
+}
 
+.menu-item {
+    color: #3C354F;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .nav-btn {
@@ -95,7 +111,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    
+
 }
 
 .description-title {
@@ -107,17 +123,8 @@ nav {
 .goat {
     font-size: 60px;
     font-weight: 800;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
-.banner-list-item {
-    font-size: 15px;
-    color: #534C64;
-    font-weight: 500;
-}
 
 .banner-img {
     width: 50%;
@@ -147,4 +154,89 @@ nav {
     background: #4EC5F7;
     padding: 13px 30px;
     color: white;
+}
+
+/* videos section */
+
+.videos-container {
+    width: 75%;
+    margin: 100px auto 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    text-align: left;
+    margin-top: 18px;
+}
+
+.videos img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.bangla {
+    color: red;
+    position: absolute;
+    /* display: none; */
+}
+
+.hober-btn-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos img:hover {
+    border: 5px solid #ff42A4;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, );
+}
+
+/* gaming section */
+
+.gaming {
+    margin: 100px auto 0;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.gaming-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+}
+
+.gaming-heading{
+margin-bottom: 15px;
+}
+
+.gaming-img {
+    width: 50%;
+
+}
+.gaming-img-main-div img{
+    width: 85%;
+}
+.mini-img img{
+    position: absolute;
+    width: 220px;
+    margin-top: -200px;
+    margin-left: -100px;
+
 }
