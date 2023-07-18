@@ -1,7 +1,7 @@
 * {
     margin: 0;
-    font-family: 'EB Garamond', serif;
-    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Work Sans', sans-serif;
 }
 
 body {
@@ -57,7 +57,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    
+
 }
 
 .nav-btn {
@@ -69,4 +69,82 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+/* banner */
+
+.banner {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-description {
+    width: 50%;
+
+    background-image: url("./images/Group\ 14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-banner-description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+
+.description-title {
+    color: #0B0223;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.goat {
+    font-size: 60px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-list-item {
+    font-size: 15px;
+    color: #534C64;
+    font-weight: 500;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 70%;
+}
+
+.btn-div {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.sign-in-btn {
+    border-radius: 45px;
+    border: none;
+    background: #FF42A5 100%;
+    padding: 13px 30px;
+    color: white;
+}
+
+.go-rogue-btn {
+    border-radius: 45px;
+    border: none;
+    background: #4EC5F7;
+    padding: 13px 30px;
+    color: white;
 }
