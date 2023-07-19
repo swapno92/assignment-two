@@ -6,7 +6,6 @@
 body {
     max-width: 1400px;
     margin: 0 auto;
-    margin-bottom: 5000px;
 }
 
 /* comon style */
@@ -198,21 +197,24 @@ figcaption {
     position: absolute;
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, .30);
+    background-color: rgba(0, 0, 0, .35);
     width: 100%;
     height: 100%;
-    
+
 }
-.hover-title{
+
+.hover-title {
     color: #ff4245;
 }
 
-.hover-btn-div:hover .play-icon{
+.hover-btn-div:hover .play-icon {
     display: block;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 5px solid #ff42a5;
+    border-radius: 20px;
 }
 
 
@@ -260,16 +262,19 @@ figcaption {
 .extra-game {
     margin-top: 100px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding: 60px 0;
+    padding: 80px 0;
 }
-.games-parent-div{
+
+.games-parent-div {
     width: 75%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 
 }
+
 .game {
     display: flex;
     align-items: center;
@@ -288,9 +293,61 @@ figcaption {
     border-radius: 50px;
     background: #FFF;
     padding: 3px 5px;
+}
 
-    .extra-game-name {
-        color: #ff42A5;
-    }
+.game:hover .extra-game-name {
+    color: #ff42A5;
+}
 
+
+/* footer section */
+
+.footer-main-div {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0223;
+    color: white;
+    padding: 100px 0;
+}
+
+
+.footer-description {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    margin: 35px 0;
+
+}
+
+.footer-description>p {
+    color: white;
+}
+
+
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    margin: 25px 0;
+}
+
+.footer-pribacy{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 30px 0 28px;
+    text-align: center;
+}
+
+.footer-pribacy>p , .footer-last-p{
+    color: rgba(255, 255, 255, 0.60);
+    
+}
+
+.line-break {
+    display: none;
 }
