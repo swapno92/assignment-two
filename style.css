@@ -213,7 +213,7 @@ figcaption {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 5px solid #ff42a5;
+    border: 3px solid #ff42a5;
     border-radius: 20px;
 }
 
@@ -281,6 +281,9 @@ figcaption {
     gap: 8px;
     background-color: white;
     border-radius: 50px;
+    padding: 3px 5px;
+    /* border: transparent #ff4245; */
+    border: 2px solid white;
 }
 
 .game img {
@@ -290,9 +293,10 @@ figcaption {
 .game:hover {
 
     border: 2px solid #ff4245;
-    border-radius: 50px;
+    /* border-radius: 50px;
     background: #FFF;
-    padding: 3px 5px;
+    padding: 3px 5px; */
+
 }
 
 .game:hover .extra-game-name {
@@ -357,12 +361,11 @@ footer {
 }
 
 
-
-
-.icon-btn{
+.icon-btn {
     background-color: #0B0223;
     border: 1px solid rgba(230, 214, 214, .30);
     padding: 12px 17px;
+    border-radius: 10px;
 }
 
 
